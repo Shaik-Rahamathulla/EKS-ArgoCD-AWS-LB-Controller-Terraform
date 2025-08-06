@@ -1,4 +1,5 @@
 env                   = "dev"
+instance_type         = "t3.micro"
 aws-region            = "ap-south-1"
 vpc-cidr-block        = "10.16.0.0/16"
 vpc-name              = "vpc"
