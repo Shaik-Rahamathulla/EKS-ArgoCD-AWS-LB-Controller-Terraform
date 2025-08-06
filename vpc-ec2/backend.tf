@@ -11,7 +11,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-ews-baket1"
+    bucket         = "my-ews-baket-16"
     region         = "us-east-1"
     key            = "vpc/terraform.tfstate"
     dynamodb_table = "Lock-Files"
